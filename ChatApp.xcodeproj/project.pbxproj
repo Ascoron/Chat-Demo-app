@@ -21,6 +21,8 @@
 		03A8016818A23D0B0075F595 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A8014A18A23D0B0075F595 /* UIKit.framework */; };
 		03A8017018A23D0B0075F595 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A8016E18A23D0B0075F595 /* InfoPlist.strings */; };
 		03A8017218A23D0B0075F595 /* ChatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A8017118A23D0B0075F595 /* ChatAppTests.m */; };
+		03A8017C18A23D760075F595 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A8017B18A23D760075F595 /* MultipeerConnectivity.framework */; };
+		03AD4F2C18A2989C00044D8C /* PostScript.ps in Resources */ = {isa = PBXBuildFile; fileRef = 03AD4F2B18A2989C00044D8C /* PostScript.ps */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		03A8016D18A23D0B0075F595 /* ChatAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChatAppTests-Info.plist"; sourceTree = "<group>"; };
 		03A8016F18A23D0B0075F595 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03A8017118A23D0B0075F595 /* ChatAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatAppTests.m; sourceTree = "<group>"; };
+		03A8017B18A23D760075F595 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		03AD4F2B18A2989C00044D8C /* PostScript.ps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PostScript.ps; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A8017C18A23D760075F595 /* MultipeerConnectivity.framework in Frameworks */,
 				03A8014918A23D0B0075F595 /* CoreGraphics.framework in Frameworks */,
 				03A8014B18A23D0B0075F595 /* UIKit.framework in Frameworks */,
 				03A8014718A23D0B0075F595 /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		03A8014518A23D0B0075F595 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03A8017B18A23D760075F595 /* MultipeerConnectivity.framework */,
 				03A8014618A23D0B0075F595 /* Foundation.framework */,
 				03A8014818A23D0B0075F595 /* CoreGraphics.framework */,
 				03A8014A18A23D0B0075F595 /* UIKit.framework */,
@@ -130,6 +136,7 @@
 				03A8014F18A23D0B0075F595 /* InfoPlist.strings */,
 				03A8015218A23D0B0075F595 /* main.m */,
 				03A8015418A23D0B0075F595 /* ChatApp-Prefix.pch */,
+				03AD4F2B18A2989C00044D8C /* PostScript.ps */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A8015F18A23D0B0075F595 /* Images.xcassets in Resources */,
+				03AD4F2C18A2989C00044D8C /* PostScript.ps in Resources */,
 				03A8015118A23D0B0075F595 /* InfoPlist.strings in Resources */,
 				03A8015A18A23D0B0075F595 /* Main.storyboard in Resources */,
 			);
@@ -460,6 +468,7 @@
 				03A8017718A23D0B0075F595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03A8017818A23D0B0075F595 /* Build configuration list for PBXNativeTarget "ChatAppTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				03A8017A18A23D0B0075F595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
